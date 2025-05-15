@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      img{
+        width: 300px;
+        height: 400px;
+        border: 3px dodgerblue solid;
+        border-radius: 10px;
+      }
+      h1{
+        color: rgb(0, 0, 255);
+      }
+      .IT{
+        background-color: green;
+      }
+      .IT2{
+        background-color: rgb(128, 225, 17);
+      }
+      .bag{
+        /* background-color: beige; */
+        border: 3px dodgerblue solid;
+        border-radius: 10px;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+      }
+      .car{
+        background-color: cadetblue;
+        display: flex;
+        justify-content: space-evenly;
+        transition: all 0.5s ease-in-out;
+      }
+      .car:hover .bag{
+        transform: scale(0.8);
+      }
+      .car .bag:hover{
+        transform: scale(0.9) rotate(5deg);
+        background-color: dodgerblue;
+        border: 3px solid black;
+      }
+      header{
+        background-color: dodgerblue;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+      }
+      footer{
+        background-color: dodgerblue;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+      }
+      #222{
+        background-color: rgb(0, 0, 0);
+      }
+    </style>
+</head>
+<body>
+    <header>
+        Phoenix CLub
+    </header>
+    <br><br><br><br><br><br>
+    <div class="car">
+        <div class="bag">
+        <h1 style="color: brown;">
+            Hi, How are you?
+        </h1>
+        <img src="image1.png" alt="museum" style="width: 300px;">
+        <h1>
+            I'm doing good
+        </h1>
+    </div>
+    <div class="bag">
+        <h1 style="color: brown;">
+            Hi, How are you?
+        </h1>
+        <img src="image1.png" alt="museum" style="width: 300px;">
+        <h1>
+            I'm doing good
+        </h1>
+    </div>
+    <div class="bag">
+        <h1 style="color: brown;">
+            Hi, How are you?
+        </h1>
+        <img src="image1.png" alt="museum" style="width: 300px;">
+        <h1>
+            I'm doing good
+        </h1>
+    </div>
+    <div class="bag">
+        <h1 style="color: brown;">
+            Hi, How are you?
+        </h1>
+        <img src="image1.png" alt="museum" style="width: 300px;">
+        <h1>
+            I'm doing good
+        </h1>
+    </div>
+    </div>
+    <br><br><br><br><br><br>
+    <footer>
+        phoenix@gmail.com
+    </footer>
+    <!-- <h1 class="IT" id="222">Software Developer</h1>
+    <h1 class="IT">Software Developer</h1>
+    <h1 class="IT" id="223">Software Developer</h1>
+    <h1 class="IT2">Software Developer</h1>
+    <h1 class="IT2"id="224">Software Developer</h1>
+    <h1 class="IT2">Software Developer</h1> -->
+</body>
+</html>
